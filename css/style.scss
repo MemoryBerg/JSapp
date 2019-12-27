@@ -1,0 +1,68 @@
+.slider {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+
+
+  .image {
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    display: inline-block;
+  }
+}
+
+.menu__list {
+  display: flex;
+  align-items: start;
+  font-family: Roboto;
+  font-size: 20px;
+
+  .menu__category {
+    margin: 5px;
+
+    ul {
+      display: none;
+
+      li {
+        padding: 4px 0;
+
+        &:first-child {
+          padding-top: 8px;
+        }
+      }
+    }
+    .menu__list_li-style {
+      font-size: 17px;
+    }
+  }
+
+  .menu__category:hover {
+
+    ul {
+      display: block;
+    }
+  }
+}
+
+.menu__list_gorizontal {
+  flex-direction: row;
+  padding: 10px 0 10px;
+}
+
+.menu__list_vertical {
+  flex-direction: column;
+  padding: 0 10px;
+}
+.menu_vertical {
+  display: inline-flex;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+
+}
+
+
