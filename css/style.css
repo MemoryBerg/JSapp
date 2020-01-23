@@ -1,12 +1,24 @@
-.slider {
+.gallery {
   width: 100vw;
   height: 100vh;
 }
-.slider .image {
-  width: 80%;
-  height: 100%;
-  background-color: #fff;
+.gallery .image {
+  width: 75%;
+  height: 750px;
+  background-color: #9bffab;
+  box-shadow: 0 0 100px #9bffab;
   display: inline-block;
+  margin: 40px 40px;
+}
+.gallery .image img {
+  width: 100%;
+  min-width: 1000px;
+  height: 750px;
+}
+
+.active {
+  color: indigo;
+  text-shadow: 0 0 10px purple;
 }
 
 /*# sourceMappingURL=style.css.map */
